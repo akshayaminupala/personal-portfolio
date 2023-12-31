@@ -98,6 +98,10 @@ header a i
 
 @media(max-width:710px)
 {
+    .header
+    {
+        padding: 16px 20px;
+    }
     
     
     .hamburger {
