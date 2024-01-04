@@ -1,9 +1,10 @@
+var width = document.body.clientWidth;
 particlesJS('particles-js',
   
 {
     "particles": {
       "number": {
-        "value": 125,
+        "value": (width<400)?70:125,
         "density": {
           "enable": true,
           "value_area": 800
